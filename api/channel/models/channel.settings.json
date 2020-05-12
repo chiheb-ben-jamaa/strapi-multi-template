@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "channels",
+  "info": {
+    "name": "Channel"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
